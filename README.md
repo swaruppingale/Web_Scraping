@@ -53,9 +53,6 @@ The server sends the complete HTML content in the initial HTTP response.
 3. Parse HTML using BeautifulSoup
 4. Extract text and indicators (CVE IDs, exploit keywords)
 
-This project primarily uses **static scraping**, as most security blogs are
-server-rendered.
-
 ---
 
 ### Dynamic Scraping (Playwright / Selenium)
@@ -151,5 +148,4 @@ Project Structure
 ├── scripts/                # Pipeline execution
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
-
 
